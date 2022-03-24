@@ -14,4 +14,3 @@ $resultado = $sentencia->fetchAll(PDO::FETCH_ASSOC);
 
 
 require './view/citasView.php';
-?>
