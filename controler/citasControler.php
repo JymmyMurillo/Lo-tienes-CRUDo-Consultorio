@@ -4,7 +4,7 @@ require './model/conexion.php';
 
 $db = new Database();
 
-$sentencia = $db->mysql->query("select * FROM citas");
+$sentencia = $db->mysql->query("select * FROM citas ORDER BY citas.fecha ASC");
 $sentencia->execute();
 $resultado = $sentencia->fetchAll(PDO::FETCH_ASSOC);
 
