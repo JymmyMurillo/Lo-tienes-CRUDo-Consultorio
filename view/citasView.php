@@ -20,7 +20,7 @@
         <h1>Citas</h1>
         <div class="d-flex flex-row">
 
-          <a href="nuevo.php" class="btn btn-primary float-rigth fs-3"> Nueva Cita</a>
+          <a href="nuevaCita.php" class="btn btn-primary float-rigth fs-3"> Nueva Cita</a>
 
           <!-------------- inicio alerta ------------------->
           <div class="m-0 mx-2">
