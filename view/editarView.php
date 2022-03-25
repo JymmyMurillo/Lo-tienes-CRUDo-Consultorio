@@ -9,8 +9,8 @@
   <title>Document</title>
 </head>
 
-<body class="py-3">
-  <main class="container">
+<body class="py-3 bg-dark d-flex justify-content-center align-items-center" style="min-height: 100vh;">
+  <main class="container bg-light rounded-3 my-3">
     <div class="row">
       <div class="col">
         <h1>Edición de Citas</h1>
@@ -29,8 +29,15 @@
           </div>
 
           <div class="colmd-4">
-            <label for="fecha" class="form-label">Fecha</label>
-            <input type="text" name="fecha" id="fecha" class="form-control" required autofocus value="<?php echo $citas->fecha; ?>">
+            <label for="fecha" class="form-label">Fecha Actual</label>
+            <p>
+              <?php echo $citas->fecha; ?>
+            </p>
+          </div>
+
+          <div class="colmd-4">
+            <label for="fecha" class="form-label">Nueva Fecha</label>
+            <input type="datetime-local" name="fecha" id="fecha" class="form-control" required autofocus value="<?php echo $citas->tema; ?>">
           </div>
 
           <input type="hidden" name="id" id="id" value="<?php echo $citas->id; ?>">

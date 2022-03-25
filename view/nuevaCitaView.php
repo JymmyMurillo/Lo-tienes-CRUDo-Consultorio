@@ -9,11 +9,11 @@
   <title>Document</title>
 </head>
 
-<body class="py-3">
-  <main class="container">
+<body class="py-3 bg-dark d-flex justify-content-center align-items-center" style="min-height: 100vh;">
+  <main class="container bg-light rounded-3 my-3">
     <div class="row">
       <div class="col">
-        <h1>Nuevos productos</h1>
+        <h1 class="my-3">Nueva Cita</h1>
       </div>
     </div>
     <div class="row py-3">
@@ -29,11 +29,14 @@
           </div>
           <div class="colmd-4">
             <label for="fecha" class="form-label">Fecha</label>
-            <input type="text" name="fecha" id="fecha" class="form-control" required autofocus>
+            <input type="datetime-local" name="fecha" id="fecha" class="form-control" required autofocus>
           </div>
-          <div class="col-md-12">
-            <a class="btn btn-secondary" href="index.php">Atrás</a>
-            <button class="btn btn-primary" name='guardar' type="submit" >Guardar</button>
+          <div class="col-md-12 d-flex justify-content-between">
+            <div>
+              <a class="btn btn-secondary" href="index.php">Atrás</a>
+              <button class="btn btn-primary" name='guardar' type="submit">Guardar</button>
+            </div>
+            <a class="btn btn-warning" href="nuevaCita.php">Vaciar Campos</a>
           </div>
         </form>
 

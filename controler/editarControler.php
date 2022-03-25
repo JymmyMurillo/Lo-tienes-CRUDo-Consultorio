@@ -14,6 +14,6 @@ $id = $_GET['id'];
 $sentencia = $db->mysql->prepare("select * FROM citas where id = ?;");
 $sentencia->execute([$id]);
 $citas = $sentencia->fetch(PDO::FETCH_OBJ);
-print_r($citas);
+//print_r($citas);
 
 require './view/editarView.php';

@@ -12,12 +12,13 @@
   <title>Document</title>
 </head>
 
-<body class="py-3">
-  <main class="container">
+<body class="py-3 bg-dark d-flex justify-content-center align-items-center" style="min-height: 100vh;">
+
+  <main class="container bg-light rounded-3 my-3">
 
     <div class="row">
       <div class="col">
-        <h1>Citas</h1>
+        <h1 class="my-3">Calendario de citas CTO</h1>
         <div class="d-flex flex-row">
 
           <a href="nuevaCita.php" class="btn btn-primary float-rigth fs-3"> Nueva Cita</a>
@@ -40,7 +41,7 @@
             if (isset($_GET['mensaje']) and $_GET['mensaje'] == 'registrado') {
             ?>
               <div class="alert alert-success alert-dismissible fade show m-0" role="alert">
-                <strong>Registrado!</strong> Se agregaron los datos.
+                <strong>Registrado!</strong> Se agrego la cita.
                 <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
               </div>
             <?php
@@ -66,7 +67,7 @@
             if (isset($_GET['mensaje']) and $_GET['mensaje'] == 'editado') {
             ?>
               <div class="alert alert-success alert-dismissible fade show m-0" role="alert">
-                <strong>Cambiado!</strong> Los datos fueron actualizados.
+                <strong>Editado!</strong> La cita fue actualizada.
                 <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
               </div>
             <?php
@@ -78,7 +79,7 @@
             if (isset($_GET['mensaje']) and $_GET['mensaje'] == 'eliminado') {
             ?>
               <div class="alert alert-warning alert-dismissible fade show m-0" role="alert">
-                <strong>Eliminado!</strong> Los datos fueron borrados.
+                <strong>Eliminado!</strong> La cita fue borrada.
                 <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
               </div>
             <?php
@@ -94,10 +95,10 @@
     </div>
     <div class="row py-3">
       <div class="col">
-        <table class="table table-dark table-hover">
+        <table class="table table-dark table-hover m-0">
           <thead>
             <tr>
-              <th class="text-center">ID</th>
+              <!--<th class="text-center">ID</th>-->
               <th class="text-center">Fecha</th>
               <th class="text-center">Nombre</th>
               <th class="text-center">Tema</th>
@@ -108,7 +109,7 @@
           <tbody>
             <?php foreach ($resultado as $fila) { ?>
               <tr>
-                <td class="text-center"><?php echo $fila['id'] ?></td>
+                <!------<td class="text-center"><?php echo $fila['id'] ?></td> ------>
                 <td class="text-center"><?php echo $fila['fecha'] ?></td>
                 <td class="text-center"><?php echo $fila['nombre'] ?></td>
                 <td class="text-center"><?php echo $fila['tema'] ?></td>
