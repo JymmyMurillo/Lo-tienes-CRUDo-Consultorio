@@ -13,7 +13,7 @@
   <main class="container">
     <div class="row">
       <div class="col">
-        <h1>Nuevos productos</h1>
+        <h1>Nueva Cita</h1>
       </div>
     </div>
     <div class="row py-3">
@@ -31,9 +31,12 @@
             <label for="fecha" class="form-label">Fecha</label>
             <input type="text" name="fecha" id="fecha" class="form-control" required autofocus>
           </div>
-          <div class="col-md-12">
-            <a class="btn btn-secondary" href="index.php">Atrás</a>
-            <button class="btn btn-primary" name='guardar' type="submit" >Guardar</button>
+          <div class="col-md-12 d-flex justify-content-between">
+            <div>
+              <a class="btn btn-secondary" href="index.php">Atrás</a>
+              <button class="btn btn-primary" name='guardar' type="submit">Guardar</button>
+            </div>
+            <a class="btn btn-warning" href="nuevaCita.php">Vaciar Campos</a>
           </div>
         </form>
 

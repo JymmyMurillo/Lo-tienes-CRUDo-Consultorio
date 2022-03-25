@@ -3,7 +3,7 @@
 
 require '../model/conexion.php';
 
-echo "erooooor";
+
 $db = new Database();
 $correcto = false;
 

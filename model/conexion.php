@@ -4,7 +4,7 @@
         public function __construct(){
             try {
                 $this->mysql=$this->conectar();
-                echo 'conexion exitosa';
+                //echo 'conexion exitosa';
             } catch (PDOException $excepcion) {
                 echo 'Error de conexion' . $excepcion->getMessage();
             } 
