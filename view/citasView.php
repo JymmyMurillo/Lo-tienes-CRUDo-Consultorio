@@ -12,12 +12,13 @@
   <title>Document</title>
 </head>
 
-<body class="py-3">
-  <main class="container">
+<body class="py-3 bg-dark d-flex justify-content-center align-items-center" style="min-height: 100vh;">
+
+  <main class="container bg-light rounded-3 my-3">
 
     <div class="row">
       <div class="col">
-        <h1>Calendario de citas CTO</h1>
+        <h1 class="my-3">Calendario de citas CTO</h1>
         <div class="d-flex flex-row">
 
           <a href="nuevaCita.php" class="btn btn-primary float-rigth fs-3"> Nueva Cita</a>
@@ -94,7 +95,7 @@
     </div>
     <div class="row py-3">
       <div class="col">
-        <table class="table table-dark table-hover">
+        <table class="table table-dark table-hover m-0">
           <thead>
             <tr>
               <!--<th class="text-center">ID</th>-->
