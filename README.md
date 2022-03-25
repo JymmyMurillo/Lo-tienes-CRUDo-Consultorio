@@ -1,10 +1,12 @@
 <style>
+
 r { color: Red }
 o { color: Orange }
 g { color: Green }
 blu { color: blue}
 of {color:orange}
 pu {color: purple}
+
 </style>
 
 <h1 style="color:blue; opacity: 0.8; font-weight:700;font-size:20px">
@@ -12,7 +14,10 @@ pu {color: purple}
 </h1>
 
 <r>
+
 <details>
+
+</r>
 
 <summary><blu> Detalles crud php </blu> </summary>
 
@@ -136,8 +141,6 @@ Entregables
 - Página en producción.
 
 # </details>
-
-</r>
 
 ---
 ---
