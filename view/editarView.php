@@ -29,8 +29,15 @@
           </div>
 
           <div class="colmd-4">
-            <label for="fecha" class="form-label">Fecha</label>
-            <input type="text" name="fecha" id="fecha" class="form-control" required autofocus value="<?php echo $citas->fecha; ?>">
+            <label for="fecha" class="form-label">Fecha Actual</label>
+            <p>
+              <?php echo $citas->fecha; ?>
+            </p>
+          </div>
+
+          <div class="colmd-4">
+            <label for="fecha" class="form-label">Nueva Fecha</label>
+            <input type="datetime-local" name="fecha" id="fecha" class="form-control" required autofocus value="<?php echo $citas->tema;?>">
           </div>
 
           <input type="hidden" name="id" id="id" value="<?php echo $citas->id; ?>">

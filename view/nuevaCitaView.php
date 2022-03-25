@@ -29,7 +29,7 @@
           </div>
           <div class="colmd-4">
             <label for="fecha" class="form-label">Fecha</label>
-            <input type="text" name="fecha" id="fecha" class="form-control" required autofocus>
+            <input type="datetime-local"  name="fecha" id="fecha" class="form-control" required autofocus>
           </div>
           <div class="col-md-12 d-flex justify-content-between">
             <div>
