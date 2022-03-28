@@ -15,7 +15,7 @@ pu {color: purple; }
 
 <r>
 
-<details>
+<details  style="color: red">
 
 </r>
 
