@@ -1,3 +1,8 @@
+<?php
+include_once './controler/cita.php';
+?>
+
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -18,7 +23,7 @@
     </div>
     <div class="row py-3">
       <div class="col">
-        <form class="row g-3" action="./controler/nuevaCitaControler.php" method="POST" autocomplete="off">
+        <form class="row g-3" action="./nuevaCitaProcess.php" method="POST" autocomplete="off">
           <div class="colmd-4">
             <label for="nombre" class="form-label">Nombre</label>
             <input type="text" name="nombre" id="nombre" class="form-control" required autofocus>
