@@ -1,3 +1,9 @@
+<?php
+include_once './controler/cita.php';
+$resultado = Cita:: all(); 
+//var_dump ($resultado);
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -115,7 +121,7 @@
                 <td class="text-center"><?php echo $fila['tema'] ?></td>
                 <td>
                   <div class="d-flex justify-content-around align-items-center">
-                    <a href="./editar.php?id=<?php echo $fila['id'] ?>" class="text-success"><i class="bi bi-pencil-square"></i></a> <a href="./controler/eliminarCitaControler.php?id=<?php echo $fila['id'] ?>" class="text-danger" onclick="return confirm('Estas seguro de eliminar?');"><i class="bi bi-trash"></i></a>
+                    <a href="./editar.php?id=<?php echo $fila['id'] ?>" class="text-success"><i class="bi bi-pencil-square"></i></a> <a href="./eliminarCitaProcess.php?id=<?php echo $fila['id'] ?>" class="text-danger" onclick="return confirm('Estas seguro de eliminar?');"><i class="bi bi-trash"></i></a>
                   </div>
                 </td>
 

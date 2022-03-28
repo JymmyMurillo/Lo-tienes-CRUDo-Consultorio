@@ -14,11 +14,11 @@ pu {color: purple; }
  Lo tienes CRUDo (Consultorio) 
 </h1>
 
-<r>
 
-<details >
 
-</r>
+<details  style="color: red">
+
+
 
 <summary><blu> Detalles crud php </blu> </summary>
 

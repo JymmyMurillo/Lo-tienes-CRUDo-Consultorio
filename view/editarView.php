@@ -1,3 +1,8 @@
+<?php
+include_once './controler/cita.php';
+$cita = Cita::update();
+?>
+
 <!DOCTYPE html>
 <html lang="es">
 
@@ -13,34 +18,34 @@
   <main class="container bg-light rounded-3 my-3">
     <div class="row">
       <div class="col">
-        <h1>Edición de Citas</h1>
+        <h1>Edición de Cita</h1>
       </div>
     </div>
     <div class="row py-3">
       <div class="col">
-        <form class="row g-3" action="./controler/updateEdicionControler.php" method="POST" autocomplete="off">
+        <form class="row g-3" action="./updateProcess.php" method="POST" autocomplete="off">
           <div class="colmd-4">
             <label for="nombre" class="form-label">Nombre</label>
-            <input type="text" name="nombre" id="nombre" class="form-control" required autofocus value="<?php echo $citas->nombre; ?>">
+            <input type="text" name="nombre" id="nombre" class="form-control" required autofocus value="<?php echo $cita->nombre; ?>">
           </div>
           <div class="colmd-4">
             <label for="tema" class="form-label">Tema</label>
-            <input type="text" name="tema" id="tema" class="form-control" required autofocus value="<?php echo $citas->tema; ?>">
+            <input type="text" name="tema" id="tema" class="form-control" required autofocus value="<?php echo $cita->tema; ?>">
           </div>
 
           <div class="colmd-4">
             <label for="fecha" class="form-label">Fecha Actual</label>
             <p>
-              <?php echo $citas->fecha; ?>
+              <?php echo $cita->fecha; ?>
             </p>
           </div>
 
           <div class="colmd-4">
             <label for="fecha" class="form-label">Nueva Fecha</label>
-            <input type="datetime-local" name="fecha" id="fecha" class="form-control" required autofocus value="<?php echo $citas->tema; ?>">
+            <input type="datetime-local" name="fecha" id="fecha" class="form-control" required autofocus value="<?php echo $cita->tema; ?>">
           </div>
 
-          <input type="hidden" name="id" id="id" value="<?php echo $citas->id; ?>">
+          <input type="hidden" name="id" id="id" value="<?php echo $cita->id; ?>">
 
           <div class="col-md-12">
             <a class="btn btn-secondary" href="index.php">Atrás</a>
