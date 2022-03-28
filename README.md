@@ -1,41 +1,48 @@
 <style>
 
-r { color: Red };
-o { color: Orange };
-g { color: Green };
-blu { color: blue};
-of {color:orange};
-pu {color: purple};
+r { color: red; }
+o { color: orange; }
+g { color: green; }
+blu { color: blue; }
+of {color:orange; }
+pu {color: purple; }
 
 </style>
 
 <h1 style="color:blue; opacity: 0.8; font-weight:700;font-size:20px">
+
  Lo tienes CRUDo (Consultorio) 
 </h1>
 
 <r>
 
-<details>
+<details >
 
 </r>
 
 <summary><blu> Detalles crud php </blu> </summary>
 
 <g>
+
 Desarrollar una aplicación "CRUD" Web en PHP que permita pedir cita a los desarrolladores y equipos para solucionar problemas técnicos con la ayuda del formador o CTO.
+
 <p></p>
 
 <r>
+
 Contexto del proyecto:
+
 </r>
 
 Nos encontramos en una empresa de desarrollo y necesitamos una aplicación que permita pedir cita al CTO para resolver problemas técnicos de los equipos de desarrollo.
 
 De momento vamos a desarrollar un producto mínimo viable (MVP). Una aplicación orientada a objetos usando el patrón MVC (Modelo, Vista, Controlador).
-<g>
+
 
 <r>
+
 Requisitos Funcionales:
+
 </r>
 
 La aplicación constará de al menos 3 páginas
@@ -45,12 +52,17 @@ Una página para editar una cita concreta.
 Páginas:
 
 <r>
+
 Lista:
+
 </r>
 
 <blu>
+
 Las citas beben aparecer por orden de creación con:
+
 </blu>
+
 <p></p>
 
 - El nombre del coder o del equipo.
@@ -60,7 +72,9 @@ Las citas beben aparecer por orden de creación con:
 - Podremos acceder a la edición de cada cita, y a la página de creación de   una cita nueva.
 
 <r>
+
 Crear nueva cita:
+
 </r>
 
 - Formulario con los campos necesarios obligatorios
@@ -69,7 +83,9 @@ Crear nueva cita:
 -Botón para enviar la información
 
 <r>
+
 Editar cita:
+
 </r>
 
 - Formulario con los campos necesarios obligatorios.
@@ -78,7 +94,9 @@ Editar cita:
 - La aplicación deberá ser responsiva.
 
 <r>
+
 Requisitos Técnicos:
+
 </r>
 
 Aplicación de tipo CRUD (Create, Read, Update, Delete)
@@ -88,7 +106,9 @@ Se debe usar Git con buenas prácticas en los commits.
 El repositorio debe contener un Readme con explicación del proyecto, y una explicación de cómo instalar o ejecutar la aplicación.
 
 <r>
+
 Extras:
+
 </r>
 
 - Hacer investigación y documentación de encapsulación, herencia y - polimorfismo.
@@ -96,7 +116,9 @@ Extras:
 - Hacer el front con REACT.
 
 <r>
+
 Tecnologías:
+
 </r>
 
 Frontend: HTML, CSS, SCSS - Opcional: Framework de CSS.
@@ -104,7 +126,9 @@ Backend: PHP, PDO.
 Bases de datos: MySQL.
 
 <r>
+
 Entrega:
+
 </r>
 
 - Un link a un repositorio de github
@@ -122,25 +146,36 @@ Entrega:
 Comunicación y autoevaluación.
 
 <blu>
+
 Modalidades pedagógicas
+
 </blu>
 
 - El desarrollo será en parejas.
 
 <blu>
+
 Modalidades de evaluación
+
 </blu>
 
 - El estilo de la web debe ser novedoso y creativo.
 
 <blu>
+
 Entregables
+
 </blu>
 
 - Repositorio de Github.
 - Página en producción.
 
+
+</g>
+
 # </details>
+
+
 
 ---
 ---
@@ -247,18 +282,29 @@ require './view/editarView.php';
 
 <of>
 
+___
+
 ### Proyect:
+
 </of>
 
-## [Lo tienes CRUDo (Consultorio)](https://github.com/JymmyMurillo/Lo-tienes-CRUDo-Consultorio)
+## [Lo tienes CRUDo (Consultorio) github](https://github.com/JymmyMurillo/Lo-tienes-CRUDo-Consultorio)
 
 ___
 
+
+## [herokuapp](https://lo-tienes-crudo.herokuapp.com/)
+
 <of>
+
+___
+_ _ _
+
 
 ###  CODERS:
 
 </of>
+
 &copy; Marzo 27 de 2022
 
 ## [Jimmy Murillo](https://github.com/JymmyMurillo)
