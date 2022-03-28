@@ -1,11 +1,11 @@
 <style>
 
-r { color: red }
-o { color: orange }
-g { color: green }
-blu { color: blue}
-of {color:orange}
-pu {color: purple}
+r { color: red; }
+o { color: orange; }
+g { color: green; }
+blu { color: blue; }
+of {color:orange; }
+pu {color: purple; }
 
 </style>
 
