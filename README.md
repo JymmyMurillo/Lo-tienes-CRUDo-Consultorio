@@ -1,8 +1,8 @@
 <style>
 
-r { color: Red }
-o { color: Orange }
-g { color: Green }
+r { color: red }
+o { color: orange }
+g { color: green }
 blu { color: blue}
 of {color:orange}
 pu {color: purple}
