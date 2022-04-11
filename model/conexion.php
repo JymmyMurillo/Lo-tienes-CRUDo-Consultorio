@@ -16,10 +16,10 @@
             
             //nombre del host, nombre de la database, nombre del usuario, password, charset utf-8
 
-            $hostname ='sql3.freesqldatabase.com';
-            $database = 'sql3481602';
-            $username ='sql3481602';
-            $password ='UEwPliETPE';
+            $hostname ='mysql-dariohimo.alwaysdata.net';
+            $database = 'dariohimo_citas_cto';
+            $username ='dariohimo_citas';
+            $password ='heroku2022*';
             $charset='utf-8';
 
             //PDO mysqli
